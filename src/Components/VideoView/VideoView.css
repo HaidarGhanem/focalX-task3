@@ -1,0 +1,127 @@
+.video__view__container {
+    margin-block: 4rem;
+    position: relative;
+}
+
+.video__img__container img{
+    width: 100%;
+}
+
+.video__content__container {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 5rem;
+    left: 0;
+}
+
+.content__text {
+    text-align: center;
+}
+
+.content__text span {
+    color: rgb(247, 82, 53);
+    font-weight: bold;
+}
+
+.content__text h1 {
+    color: white;
+}
+
+.content__video {
+    position: relative;
+    padding: 3rem;
+}
+
+.content__video img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 16px #00000080;
+}
+
+.play__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--Secondary-Color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play__icon svg {
+    color: var(--Secondary-Color);
+    background-color: white;
+    padding: 16px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.video__boxes__container {
+    width: 100%;
+    padding: 4rem;
+}
+
+.video__boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+}
+
+.video__box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    background: #ffd49d;
+    padding: 20px 40px;
+    border-radius: 8px;
+    max-width: 250px;
+}
+
+.video__box span#dot { 
+    background-color: var(--Secondary-Color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: -16px;
+    top: -16px;
+}
+
+.video__box span {
+    color:var(--Secondary-Color);
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.video__box p {
+    font-weight: 600;
+}
+
+@media screen and (max-width : 992px) { 
+    .video__img__container img{
+        height: 40vh;
+    }
+    .content__video{
+        padding: 2rem 1rem;
+    }
+    .content__text{
+        max-width: 300px;
+    }
+    .video__boxes{
+        padding: 2rem;
+    }
+}

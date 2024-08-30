@@ -1,0 +1,26 @@
+footer {
+    width: 100%;
+    position: relative;
+    top: 450px;
+   
+}
+
+footer .footer-container {
+    background: var(--Primary-Color);
+    color: white;
+    padding: 2rem;
+}
+
+footer .footer-container p {
+    color: white;
+    margin-left: 8rem;
+}
+
+@media screen and (max-width : 992px) {
+   
+
+    footer .footer-container p {
+        margin-left: 2rem;
+        text-align: center;
+    }
+}

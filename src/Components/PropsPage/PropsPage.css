@@ -1,0 +1,40 @@
+.btn__box__container {
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card__props__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.pagination {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.pagination__boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background-color: var(--Primary-Color);
+    color: white;
+    border-radius: 50%;
+    transition: 0.5s all;
+}
+
+.pagination__boxes:hover{
+    background-color: var(--Secondary-Color);
+}

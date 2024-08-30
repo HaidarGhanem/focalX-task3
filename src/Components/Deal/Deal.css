@@ -1,0 +1,122 @@
+.deal__container{
+    margin-top: 600px;
+    padding: 20px;
+    width: 100%;
+    height: 700px;   
+}
+
+.deal__bar{
+    display: flex;
+    column-gap: 220px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bar__text{
+    width: 260px;
+}
+
+.bar__text span {
+    font-weight: bold;
+    color: rgb(247, 82, 53);
+}
+
+.bar__text h1 {
+    color: var(--Primary-Color);
+}
+
+.bar__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.bar__btn {
+    height: 40px;
+    width: 130px;
+    background-color: var(--Primary-Color);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.bar__btn:hover {
+    background-color: var(--Secondary-Color);
+    transition: 0.5s all;
+}
+
+.deal__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.deal__info__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 320px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 1px 2px 16px #00000067;
+}
+
+.deal__info__item p {
+    color: rgb(202, 202, 202);
+    font-weight: bold;
+    padding: 20px 0;
+    width: 150px;
+    font-size: 16px;
+    border-bottom: 2px solid white;
+}
+
+.deal__info__item h5 {
+    color: var(--Primary-Color);
+    font-size: larger;
+}
+
+.deal__info__item {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(245, 245, 245);
+}
+
+.deal__img{
+    width: 500px;
+    height: 450px;
+    box-shadow: 1px 2px 16px #00000046;
+}
+
+.deal__img img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+.deal__info__extra{
+    width: 250px;
+}
+
+.extra__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    gap: 50px;
+    width: 220px;
+}
+
+.extra__text p {
+    font-size: small;
+}

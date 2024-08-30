@@ -1,0 +1,29 @@
+.properties__container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.properties__text{
+    text-align: center;
+    width: 250px;
+}
+
+.properties__text span {
+    font-weight: bold;
+    color: rgb(247, 82, 53);
+}
+
+.properties__text h3 {
+    font-size: 28px;
+}
+
+.card__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}   

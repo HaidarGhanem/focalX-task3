@@ -1,0 +1,45 @@
+.video__container{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    margin: auto;
+}
+
+.featured__content__prop {
+    margin-top: 30px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.featured__img__box__prop {
+    height: 500px;
+    width: 800px;
+}
+
+.featured__img__box__prop img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.prop__text {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.prop__text p{
+    max-width: 800px;
+    font-weight: light;
+}
+
+@media  screen and (max-width: 992px) {
+    .featured__img__box__prop {
+        height: 300px;
+        width: 500px;
+    }
+
+}
