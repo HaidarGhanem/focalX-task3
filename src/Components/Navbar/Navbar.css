@@ -1,4 +1,17 @@
-.navbar__container {
+.navbar {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.navbar__menu {
+    display: flex;
+    justify-content: center;
+}.navbar__container {
     height: 80px;
     display: flex;
     justify-content: space-between;

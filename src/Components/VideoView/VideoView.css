@@ -1,3 +1,7 @@
+.video {
+    margin-top: 120px;
+}
+
 .video__view__container {
     margin-block: 4rem;
     position: relative;
